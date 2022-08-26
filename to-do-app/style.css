@@ -45,3 +45,13 @@ body{
     border-radius: 8px;
     padding: 5px;
 }
+
+.options {
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+
+.options i {
+    cursor: pointer;
+}
