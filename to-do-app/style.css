@@ -1,12 +1,12 @@
 body{
     font-family: sans-serif;
-    background-color: #1bc8ee;
+    background-color: #76767671;
 }
 
 .app {
     width: 300px;
     height: 500px;
-    border: 5px solid rgb(69, 180, 141);
+    border: 5px solid rgb(100, 173, 255);
     border-radius: 8px;
     padding: 15px;
     background-color: white;
@@ -21,4 +21,27 @@ body{
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.fa-plus {
+    background-color: rgb(100, 173, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#tasks{
+    display: grid;
+    gap: 15px;
+}
+
+#tasks div {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+    background-color: rgb(217, 217, 217.35);
+    border: 3px solid rgb(100, 173, 255);
+    border-radius: 8px;
+    padding: 5px;
 }
