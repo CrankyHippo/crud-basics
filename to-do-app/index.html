@@ -48,16 +48,17 @@
             </div>
             <div class="modal-body">
               <p>Task Title</p>
-              <input class="form-control" type="text" name="" id="textInput" />
+              <input type="text" class="form-control" name="" id="textInput" />
+              <div id="msg"></div>
               <br />
               <p>Due Date</p>
-              <input class="form-control" type="date" name="" id="dateInput" />
+              <input type="date" class="form-control" name="" id="dateInput" />
               <br />
               <p>Description</p>
               <textarea
-                class="form-control"
                 name=""
-                id=""
+                class="form-control"
+                id="textarea"
                 cols="30"
                 rows="5"
               ></textarea>
@@ -70,7 +71,9 @@
               >
                 Close
               </button>
-              <button type="submit" class="btn btn-primary">Add</button>
+              <button type="submit" id="add" class="btn btn-primary">
+                Add
+              </button>
             </div>
           </div>
         </div>
